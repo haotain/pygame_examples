@@ -4,8 +4,7 @@ from plane_sprites import *
 
 pygame.init()
 SCREEN_RECT = pygame.Rect(0, 0, 480, 700)
-print(SCREEN_RECT)
-exit()
+
 # 创建游戏的窗口
 surface_mode = pygame.display.set_mode((480, 700))
 
